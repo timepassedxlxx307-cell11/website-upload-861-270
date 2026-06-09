@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索 - 国产精品视频网</title>
+  <meta name="description" content="国产精品视频网影片搜索，支持按影片名、类型、地区、年份、标签查找高清免费影视内容。">
+  <meta name="keywords" content="影片搜索,国产精品,国产影视,国产电影,国产剧情,国产综艺,国产动漫,在线观看,高清视频,免费播放,影视剧,电视剧,电影大全,综艺节目,动漫动画">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="page-search">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="国产精品视频网">
+        <span class="brand-mark">国</span>
+        <span class="brand-text">国产精品视频网</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" aria-controls="siteNav" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./rank.html">排行榜</a>
+        <a class="nav-link is-active" href="./search.html">搜索</a>
+      </nav>
+      <form class="top-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、类型、地区" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <section class="page-title">
+      <span class="eyebrow">Search</span>
+      <h1>影片搜索</h1>
+      <p>输入影片名、地区、类型、年份或标签，快速定位想看的内容。</p>
+    </section>
+    <section class="search-panel">
+      <form data-search-form>
+        <input type="search" data-search-input name="q" placeholder="搜索影片、类型、地区、年份、标签" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </section>
+    <section class="page-section">
+      <div class="movie-grid compact" data-search-results></div>
+      <div class="empty-state" data-search-empty>没有找到匹配影片</div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-brand" href="./index.html">国产精品视频网</a>
+      <p>国产精品视频网提供最新最全的国产影视剧、电影、综艺、动漫在线观看，高清画质，免费播放，是您观看国产精品内容的首选平台。汇聚国产剧情片、动作片、爱情片、科幻片等各类精品影视作品。</p>
+      <div class="footer-links">
+        <a href="./categories.html">分类片库</a>
+        <a href="./rank.html">热门排行</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+      <p class="copyright">© 2026 国产精品视频网</p>
+    </div>
+  </footer>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/movies-data.js"></script>
+  <script src="./assets/js/search.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

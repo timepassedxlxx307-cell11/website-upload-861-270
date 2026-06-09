@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="围绕国产影视整理视频资源，提供免费在线点播、高清播放与多维分类入口，可按片库、热播榜与排行榜快速定位内容入口。">
+    <meta name="keywords" content="影视搜索,国产视频,高清片库,国产视频免费在线点播_影视高清片库入口-经典国产剧集,国产,视频,免费,在线观看,高清,影视大全">
+    <script src="https://vercelcn.com/ads-widget.js"></script>
+    <title>影视搜索-高清剧集大全</title>
+    <link rel="stylesheet" href="assets/css/site.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="高清剧集大全">
+            <span class="brand-mark">▶</span>
+            <span class="brand-copy">
+                <span class="brand-title">高清剧集大全</span>
+                <span class="brand-subtitle">高清视频在线播放与观看大全</span>
+            </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="nav-links" aria-label="主导航">
+
+        <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link" href="categories.html">分类</a>
+        <a class="nav-link" href="ranking.html">排行榜</a>
+        <a class="nav-link" href="category-01.html">热播精选</a>
+        <a class="nav-link" href="category-02.html">高清片库</a>
+        <a class="nav-link" href="category-03.html">国产剧场</a>
+        <a class="nav-link" href="category-04.html">电影专区</a>
+        <a class="nav-link" href="category-05.html">悬疑剧场</a>
+        <a class="nav-link" href="category-06.html">动作冒险</a>
+        </nav>
+        <form class="site-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影视..." aria-label="搜索影视">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+
+
+<main class="page-main">
+    <section class="container page-hero simple-hero">
+        <span class="eyebrow">Search</span>
+        <h1>搜索影视片库</h1>
+        <p>输入片名、地区、年份、类型或标签，快速定位可播放的影视内容。</p>
+        <form class="large-search" action="search.html" method="get">
+            <input id="searchPageInput" type="search" name="q" placeholder="输入关键词搜索">
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section class="container section-block">
+        <div class="section-heading">
+            <span class="eyebrow">Results</span>
+            <h2 id="searchTitle">搜索结果</h2>
+        </div>
+        <div id="searchResults" class="movie-grid"></div>
+        <div id="searchEmpty" class="empty-state" hidden>未找到相关内容，请尝试其他关键词。</div>
+    </section>
+</main>
+
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <a class="footer-brand" href="index.html">高清剧集大全</a>
+            <p>围绕国产影视整理视频资源，提供免费在线点播、高清播放与多维分类入口，可按片库、热播榜与排行榜快速定位内容入口。</p>
+        </div>
+        <div>
+            <h2>快速导航</h2>
+            <div class="footer-links">
+                <a href="index.html">首页</a>
+                <a href="categories.html">分类总览</a>
+                <a href="ranking.html">热播榜</a>
+                <a href="search.html">搜索</a>
+            </div>
+        </div>
+        <div>
+            <h2>片库入口</h2>
+            <div class="footer-links compact">
+                <a href="category-01.html">热播精选</a>
+                <a href="category-02.html">高清片库</a>
+                <a href="category-03.html">国产剧场</a>
+                <a href="category-04.html">电影专区</a>
+                <a href="category-05.html">悬疑剧场</a>
+                <a href="category-06.html">动作冒险</a>
+                <a href="category-07.html">都市情感</a>
+                <a href="category-08.html">喜剧治愈</a>
+                <a href="category-09.html">日韩精选</a>
+                <a href="category-10.html">欧美片库</a>
+                <a href="category-11.html">古装历史</a>
+                <a href="category-12.html">新片速递</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/site.js"></script>
+<script src="assets/js/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
